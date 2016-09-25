@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-size: 120%;
+  font-family: Tahoma
+}
+
+h1{
+	text-align: center;
+	font-size: 1.75em;
+	font-weight: bold;
+}
+
+div.container{
+	position: relative;	
+	border: 1px solid black;
+	background-color: #D1C6A1;
+	height: 350px;	
+}
+
+p.meat{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+	height: 35px;
+	width: 150px;
+
+	border: 1px solid black;	
+	margin-top: 0px;
+	padding: 5px;
+	
+	text-align: center;	
+	font-size: 1.25em;	
+}
+
+#chicken{
+	background-color: yellow;
+}
+
+#beef{
+	background-color: brown;
+	color: white;
+}
+
+#sushi{
+	background-color: blue;
+	color: white;
+}
+
+p.content{
+	position: absolute;	
+	left: 0px;
+	top: 35px;
+	margin-top: 5px;
+	padding: 5px;	
+	height: 300px;
+	overflow: auto;
+}
+
+.row {
+width: 100%;
+}
+
+/********** Desktop **********/
+@media (min-width: 992px) {
+	.col-lg-4{
+	  float: left;
+	  width: 33.33%;
+	  background-color: white;
+	  padding: 10px;
+	}
+	
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6, .col-md-12 {
+	  float: left;
+	  background-color: white;
+	  padding: 10px;
+	}	
+	.col-md-6 {
+	  width: 50%;
+	}
+	
+	.col-md-12 {
+	  width: 100%;
+	}
+}
+
+/********** Mobile **********/
+@media (max-width: 767px) {
+	.col-sm-12{
+	  float: left;	  
+	  width: 100%;
+	  background-color: white;
+	  padding: 10px;
+	}
+	
+}
+
