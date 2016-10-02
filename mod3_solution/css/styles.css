@@ -1,0 +1,59 @@
+h1{
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #3A8D39;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  height: 4em;
+}
+
+
+.navbar-brand h1 {
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+    color: #D8CD5B;
+    font-size: 2em;    
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #1B5408;
+    margin-top: 0;
+    margin-bottom: 0;    
+}
+
+.navbar-header button.navbar-toggle {  
+  margin-top: 19px;
+  background-color: #D8CD5B;
+}
+
+#nav-list {
+  margin-top: 10px;
+  text-align: center;  
+  background-color: #D8CD5B;
+  color: #3A8D39;
+  font-size: 1.75em;    
+}
+
+#menu-title
+{
+    color: #3A8D39;
+    text-shadow: 5px 5px 5px #6AA92D;
+}
+
+#main-content > p
+{
+    background-color: #D8CD5B;
+    color: #3A8D39;
+    height: 1000px;
+    padding: 10px;
+    font-size: 1.2em;    
+}
